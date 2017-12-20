@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal|center"
+        android:singleLine="true"
+        android:text="拼多多"
+        android:background="@drawable/sy_jb"
+        android:textColor="#ffffffff"
+        android:textSize="17px" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/sy_tab"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:background="#fff"
+        app:tabIndicatorColor="@android:color/holo_red_light"
+        app:tabMaxWidth="60px"
+        >
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/sy_tab_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+
+
+
+</LinearLayout>

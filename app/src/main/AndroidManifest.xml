@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.cr_pinduoduo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tb"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <meta-data
+            android:name="design_width"
+            android:value="768" />
+        <meta-data
+            android:name="design_height"
+            android:value="1280" />
+
+        <activity android:name=".activity.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.activity.Home2Activity" />
+        <activity android:name=".activity.NewActivity" />
+        <activity android:name=".activity.activity.XP_xqActivity" />
+        <activity android:name=".activity.activity.JdggActivity" />
+        <activity android:name=".activity.activity.Wd_dlActivity" />
+
+        <!-- 分享，收藏，登录回调 -->
+        <activity
+            android:name=".activity.weixin.WXEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:scheme="wxbd3e6bba8efbae73" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.weixin.WXPayEntryActivity"></activity>
+
+        <!-- 注册应用到微信 -->
+        <receiver android:name=".activity.weixin.AppRegister">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.activity.Weixin_dlActivity"></activity>
+    </application>
+
+</manifest>

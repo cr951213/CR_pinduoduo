@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/xp_tk"
+        android:text="搜索"
+        android:background="#fff"
+        android:textSize="17px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:drawableRight="@drawable/sc"
+        />
+
+    <ImageView
+        android:id="@+id/ssbut_ss"
+        android:src="@drawable/sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="10px"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ListView
+            android:id="@+id/ss_ls"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+           >
+        </ListView>
+
+
+        <FrameLayout
+            android:id="@+id/ss_frame"
+            android:layout_weight="3"
+
+            android:layout_width="0px"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5px"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/syrv_img"
+        android:layout_width="590px"
+        android:layout_height="366px"
+        android:layout_marginTop="5px"
+        fresco:placeholderImage="@mipmap/ic_launcher"
+
+        />
+    <TextView
+        android:id="@+id/syrv_name"
+        android:text="上飞虎山挂号脸上的就能看见师父二环"
+        android:layout_marginTop="10px"
+        android:layout_margin="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/syrv_price"
+        android:textColor="#f00"
+        android:text="45.96"
+        android:layout_weight="7"
+        android:layout_margin="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/but_pd"
+        android:text="去拼单＞"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:background="#f00"
+        android:layout_weight="1"
+        android:layout_width="100px"
+        android:layout_height="35px" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/xprv_img"
+        android:layout_marginLeft="3px"
+        android:layout_width="300px"
+        android:layout_height="300px" />
+
+    <TextView
+        android:id="@+id/xprv_tv"
+        android:layout_margin="10px"
+        android:text="四渡赤水当粗上档次板上钉钉成粑粑城市的蚕丝蛋白曾断手不错吧"
+        android:layout_width="280px"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/xprv_privce"
+        android:text="45.12"
+        android:textColor="#f00"
+        android:layout_margin="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

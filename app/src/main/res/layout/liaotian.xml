@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+    <TextView
+        android:text="聊天"
+        android:textSize="18px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:background="#fff"
+        />
+    <TextView
+        android:background="#ccc"
+        android:layout_width="match_parent"
+        android:layout_height="2px" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF2F2F2"
+        android:gravity="center">
+
+        <ImageView
+            android:src="@drawable/wdl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/lt_but_dl"
+            android:text="登录"
+            android:textColor="#fff"
+            android:textSize="18px"
+            android:gravity="center"
+            android:background="#f00"
+            android:layout_width="match_parent"
+            android:layout_height="50px"
+            android:layout_margin="20px"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

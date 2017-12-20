@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.administrator.cr_pinduoduo.activity.activity.Wd_dlActivity">
+
+    <TextView
+        android:id="@+id/but_gb"
+        android:text="关闭"
+        android:textSize="20px"
+        android:textColor="#00f"
+        android:layout_margin="10px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="选择登录方式"
+        android:layout_marginTop="100px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/but_dll"
+        android:text="微信登录"
+        android:textColor="#fff"
+        android:background="#0f0"
+        android:gravity="center"
+        android:textSize="17px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:layout_marginTop="50px"
+        android:layout_width="match_parent"
+        android:layout_height="40px" />
+
+    <ImageView
+        android:id="@+id/dl_fs"
+        android:layout_marginTop="80px"
+        android:src="@drawable/dldl"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

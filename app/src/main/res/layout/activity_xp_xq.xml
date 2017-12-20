@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.cr_pinduoduo.activity.activity.XP_xqActivity">
+
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <com.stx.xhb.xbanner.XBanner
+        android:id="@+id/banner_1"
+        android:layout_width="match_parent"
+        android:layout_height="600px"
+      />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30px">
+
+        <TextView
+            android:id="@+id/xp_xp_price"
+            android:text="789"
+            android:textSize="20px"
+            android:textColor="#f00"
+            android:layout_margin="5px"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="30px" />
+
+        <TextView
+            android:id="@+id/xp_xp_price2"
+            android:text="789"
+            android:layout_margin="5px"
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="30px" />
+
+        <TextView
+            android:id="@+id/xp_xp_pd"
+            android:text="23"
+            android:layout_margin="5px"
+            android:layout_weight="3"
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="30px" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/xp_xp_title"
+        android:textSize="17px"
+        android:layout_margin="10px"
+        android:text="大约花覅u非人工登革热否打扫"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+     <ImageView
+         android:src="@drawable/xx"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <TextView
+        android:background="#ccccff"
+        android:layout_width="match_parent"
+        android:layout_height="5px" />
+
+    <ImageView
+        android:src="@drawable/xp_dd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ViewFlipper
+        android:id="@+id/vf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoStart="true"
+        android:background="#fff"
+        android:flipInterval="3000"
+        android:inAnimation="@anim/in"
+        android:outAnimation="@anim/eg"
+        android:paddingLeft="30px" />
+
+   <ImageView
+    android:src="@drawable/pj"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+   <TextView
+       android:background="#cccccc"
+       android:layout_width="match_parent"
+       android:layout_height="1px" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sp_pj_rv"
+
+        android:layout_width="match_parent"
+        android:layout_height="200px">
+
+    </android.support.v7.widget.RecyclerView>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_weight="1"
+        android:src="@drawable/jdping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/but_jdgg"
+        android:layout_weight="1"
+        android:src="@drawable/jdgg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <ImageView
+        android:src="@drawable/spxq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/xp_tv_xp"
+        android:text="十番乐过付与付晕不不不不或死多军所军都诶偶撇肉付女军多"
+        android:layout_margin="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/sp_xp_xp_rv"
+        android:layout_width="match_parent"
+        android:layout_height="1000px"
+        android:background="#fff">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

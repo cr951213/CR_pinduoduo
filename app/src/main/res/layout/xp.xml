@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/xp_tk"
+        android:text="新品"
+        android:background="#fff"
+        android:textSize="17px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50px"
+        android:drawableRight="@drawable/sc"
+        />
+
+    <TextView
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="1px" />
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/llt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           />
+        <ImageView
+            android:src="@drawable/jxzt"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <TextView
+        android:background="#ccccff"
+        android:layout_width="match_parent"
+        android:layout_height="5px" />
+
+    <TextView
+        android:text="精选新品"
+        android:gravity="center"
+        android:textColor="#f00"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/dd"
+        android:layout_marginRight="5px"
+        android:layout_width="wrap_content"
+        android:layout_height="50px" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/layout_swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/xp_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+
+
+</LinearLayout>

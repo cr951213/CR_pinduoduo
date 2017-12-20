@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.administrator.cr_pinduoduo.activity.activity.Home2Activity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </android.support.v4.view.ViewPager>
+
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:id="@+id/radioGroup">
+
+        <ImageView
+            android:id="@+id/sy"
+            android:layout_weight="1"
+            android:src="@drawable/sy1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40px" />
+
+
+        <ImageView
+            android:id="@+id/xp"
+            android:layout_weight="1"
+            android:src="@drawable/xp1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40px" />
+
+
+        <ImageView
+            android:id="@+id/ss"
+            android:layout_weight="1"
+            android:src="@drawable/ss1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40px" />
+
+
+        <ImageView
+            android:id="@+id/lt"
+            android:layout_weight="1"
+            android:src="@drawable/lt1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40px" />
+
+
+        <ImageView
+            android:id="@+id/grzx"
+            android:layout_weight="1"
+            android:src="@drawable/grzx1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="40px" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
